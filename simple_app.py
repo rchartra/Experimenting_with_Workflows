@@ -1,14 +1,6 @@
 from kivy.app import App
-from kivy.uix.label import Label
-from kivy.uix.screenmanager import Screen
 from kivy.uix.screenmanager import ScreenManager
-
-class HomeScreen(Screen):
-    def __init__(self, **kwargs):
-        super(HomeScreen, self).__init__(**kwargs)
-        self.label = Label(text="Hello World")
-        self.add_widget(self.label)
-        self.note = "I am a note"
+from homescreen import HomeScreen
 
 class simple_app(App):
     def build(self):
