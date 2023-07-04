@@ -8,3 +8,7 @@ def test_power():
 
 def test_evens():
     assert somemath.evens(1,9)[1] == 4
+
+def test_note():
+    home = simple_app.HomeScreen()
+    assert home.note == "I am a note"
