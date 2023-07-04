@@ -9,6 +9,10 @@ def test_power():
 def test_evens():
     assert somemath.evens(1,9)[1] == 4
 
+def test_class():
+    c = somemath.MyClass()
+    assert c.note = "I am a class!"
+
 def test_note():
     home = HomeScreen()
     assert home.note == "I am a note"
