@@ -10,7 +10,6 @@ from simpleapp import SimpleApp
 
 
 class SimpleTestApp(AsyncUnitApp):
-
     app: SimpleApp
 
 
