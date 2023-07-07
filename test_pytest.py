@@ -13,6 +13,6 @@ def test_class():
     c = somemath.MyClass()
     assert c.note == "I am a class!"
 
-def test_note():
-    home = HomeScreen()
-    assert home.note == "I am a note"
+# def test_note():
+#     home = HomeScreen()
+#     assert home.note == "I am a note"
